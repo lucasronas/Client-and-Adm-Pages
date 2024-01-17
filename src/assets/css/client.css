@@ -1,0 +1,41 @@
+.client_container {
+    width: 450px;
+    margin: 0 auto;
+    padding: 3em;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.client_container h1 {
+    margin-bottom: 0.5em;
+    color: var(--detail-color);
+    width: 180px;
+    color: var(--detail-color);
+    padding: 0 .2em;
+    background-color: var(--default-color);
+    border-radius: 10px;
+}
+
+.client_container p {
+    color: #7b7b7b;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 480px) {
+
+   .client_container {
+    width: auto;
+    align-items: center;
+   }
+
+
+
+   .client_container p {
+    text-align: center;
+    }
+
+}

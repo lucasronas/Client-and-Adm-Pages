@@ -1,0 +1,28 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "name": "lucas",
+      "email": "1@gmail.com",
+      "cpf": "123456789"
+    },
+    {
+      "id": 2,
+      "name": "hugo",
+      "email": "2@gmail.com",
+      "cpf": "123456789"
+    },
+    {
+      "id": 3,
+      "name": "nara",
+      "email": "3@gmail.com",
+      "cpf": "123456789"
+    },
+    {
+      "id": "570e",
+      "name": "Reinaldo",
+      "email": "reinaldo@gmail.com",
+      "cpf": "9876543210"
+    }
+  ]
+}

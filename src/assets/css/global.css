@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+:root {
+    --default-color: #23439b;
+    --detail-color: #FFEA00;
+}
+
+html,
+body,
+#root {
+    background-color: #efefef;
+    height: 100%;
+}
+
+.container {
+    width: 100vw;   
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.min_height {
+    min-height: 522px;
+}

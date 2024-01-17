@@ -1,0 +1,67 @@
+.client_card {
+    padding: 1em;
+    border: 1px solid #7a7a7a;
+    border-radius: 5px;
+    width: 24%;
+    margin: 0.5%;
+}
+
+.client_card h4 {
+    background-color: var(--default-color);
+    color: var(--detail-color);
+    padding: 0.4em;
+    margin-bottom: 1.3em;
+    font-size: 1.3em;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.client_card p {
+    color: #8d8b8b;
+    margin-bottom: 1em;
+}
+
+.client_card p span {
+    font-weight: bold;
+}
+
+.remove {
+    margin-top: 1.2em;
+}
+
+.remove button {
+    border: none;
+    background-color: #fff;
+    color: #222;
+    font-size: 0.9em;
+    padding: 0.6em 1em;
+    cursor: pointer;
+    border: 1px solid #222;
+    transition: 0.5s;
+}
+
+.remove button:hover {
+    background-color: var(--default-color);
+    color: var(--detail-color);
+    border-color: var(--detail-color);
+}
+
+.remove svg {
+    margin-right: 5px;
+}
+
+@media (max-width: 800px) {
+    .client_card {
+        width: 40%;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 500px){
+
+     .client_card{
+        width: 85vw;
+        text-align: center;
+    } 
+}
